@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDGWeb_project1</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+    .box1{
+        width: 100vw;
+        height: 60vh;
+        background-image: url('bg-hero-desktop.svg');
+    }
+    .box1 .header{
+        display: inline-flex;
+        margin-left: 1.5vw;
+        padding: 15px;
+    }
+    .box1 .header button{
+       margin-left: 74vw;
+       border-radius: 20px;
+       padding: 8px 30px;
+       font-size: 10px;
+        }
+    .box1 .header button:hover{
+        color: #fff;
+        background-color: #1a1a1a;
+        }
+    .box1 .box1dec{
+        position: absolute;
+        margin-left: 60vw;
+        margin-top: 2vh;
+    }
+    .box1 .box1content{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: absolute;
+        width: 40vw;
+        padding: 10px;
+        margin-top: 7vh;
+        margin-left: 1.5vw;
+    }
+    .box1 .box1content h1{
+  font-size: 35px;
+  word-spacing: 8px;
+    }
+    .box1 .box1content p{
+        margin-top: 2vh;
+        font-size: 15px;
+        word-spacing: 4px;
+        font-style: oblique;
+        margin-bottom: 2vh;
+    }
+    .box1 .box1content button{
+        font-size: 12px;
+        padding: 8px 35px;
+        border-radius: 20px;
+        color: #fff;
+        background-color: hsl(322, 97%, 70%);
+    }
+    .box1 .box1content button:hover{
+        background-color: hsl(322, 100%, 50%);
+    }
+
+
+    .box2{
+        display: flex;
+        position: absolute;
+        width: 80vw;
+        height: 35vh;
+       
+        margin: 12vh 10vw 1.5vh 10vw;
+        
+        box-shadow: 2px 2px 2px 2px rgb(98, 98, 98) ;
+        border-radius: 5px;
+    }
+    .box2 .box2dec{
+        margin-top: 20px;
+        margin-left: 53vw;
+    }
+    .box2 .box2content{
+
+        align-content: center;
+        margin-top: 10vh;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: absolute;
+        width: 40vw;
+        padding: 10px;
+       margin-left: 4vw;
+       
+    }
+    .box2 .box2content h2{
+        margin-bottom: 2vh;
+    }
+    .box2 .box2content p{
+        color: #797979;
+    }
+
+
+
+    .box3{
+        display: flex;
+         width: 80vw;
+        height: 35vh;
+        
+        margin: 52vh 10vw 1.5vh 10vw;
+        box-shadow: 2px 2px 2px 2px rgb(159, 159, 159) ;
+        border-radius: 5px;
+
+    }
+    .box3 .box3dec{
+        margin-left: 5vw;
+        margin-top: 4vh;
+        position: absolute;
+        
+    }
+    .box3 .box3content{
+        margin-left: 47vw;
+        margin-top: 10vh;
+    }
+    .box3 .box3content h2{
+        margin-bottom: 2vh;
+    } 
+    .box3 .box3content p{
+        color: #797979;
+    }
+
+    .box4{
+        display: flex;
+        position: absolute;
+        width: 80vw;
+        height: 35vh;
+        border: 1px solid black;
+        margin: 4vh 10vw 1.5vh 10vw;
+        
+        box-shadow: 2px 2px 2px 2px rgb(98, 98, 98) ;
+        border-radius: 5px;
+    }
+    .box4 .box4dec{
+        margin-top: 20px;
+        margin-left: 53vw;
+    }
+    .box4 .box4content{
+
+        align-content: center;
+        margin-top: 10vh;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: absolute;
+        width: 40vw;
+        padding: 10px;
+       margin-left: 4vw;
+       
+    }
+    .box4 .box4content h2{
+        margin-bottom: 2vh;
+    }
+    .box4 .box4content p{
+        color: #797979;
+    }
+
+    .summitbar{
+        position: absolute;
+        background-color: #fff;
+        width: 40vw;
+        height: 20vh;
+        margin-top: 50vh;
+        margin-left: 30vw;
+        /* box-shadow: 2px 2px 2px 2px rgb(98, 98, 98) ; */
+        border: 2px solid black;
+        border-radius: 5px;
+        
+    }
+    .summitbar h2{
+        margin-left: 7vw;
+        margin-top: 4vh;
+    }
+    .summitbar button{
+        position: absolute;
+        margin-left: 13vw;
+        margin-top: 2vh;
+        background-color: hsl(322, 100%, 77%);
+        padding: 8px 25px;
+        border-radius: 20px;
+    } 
+    
+    .summitbar button:hover{
+        background-color:  hsl(322, 100%, 65%);
+    }
+    .footer{
+        position: absolute;
+        width: 100vw;
+        height: 35vh;
+        background-color: rgb(3, 36, 55);
+        margin-top: 65vh;
+    }
+
+
+</style>
+<body>
+    <div class="box1">
+        <div class="header">
+            <img src="logo.svg" width="175 px" height="20px"  alt="">
+            <form action="post">
+                <button type="submit">Try It Free</button>
+            </form>
+        </div>
+
+        <div class="box1dec">
+            <img src="illustration-mockups.svg" width="500px" alt="">
+        </div>
+
+        <div class="box1content">
+            <h1>Build The Community <br> Your Fans Will Love</h1>
+            <p>Huddle re-imagines the way we build communities. You have <br>a voice , but so does your audience. Create connection with <br>your users as you engage in genuine discussion.</p>
+        
+            <form action="post">
+                <button type="submit">Get Started For Free</button>
+            </form>
+       
+        </div>
+</div>
+<div class="box2">
+    <div class="box2dec"><img src="illustration-grow-together.svg" width="275px" alt=""></div>
+    <div class="box2content">
+        <h2>Grow Together</h2>
+        <p>Generate meaningful discussion with your audience and <br>build a strong, loyal community. Think of the insightful <br>conversation you miss out on with a feedback form.</p>
+    </div>
+</div>
+
+
+<div class="box3">
+    <div class="box3dec"><img src="illustration-flowing-conversation.svg" width="275px" alt=""></div>
+    <div class="box3content">
+        <h2>Flowing Conversations</h2>
+        <p>You wouldn't paginate a conversation in real life, so why do <br>it online? Our threads have just-in-time loading for a mare <br>natural flow.</p>
+    </div>
+</div>
+
+
+<div class="box4">
+    <div class="box4dec"><img src="illustration-your-users.svg" width="275px" alt=""></div>
+    <div class="box4content">
+        <h2>Flowing Conversations</h2>
+        <p>You wouldn't paginate a conversation in real life, so why do <br>it online? Our threads have just-in-time loading for a mare <br>natural flow.</p>
+    </div>
+</div>
+
+<div class="footer">
+   <img src="Screenshot_2024-12-27_233859-removebg-preview (1).png"  alt="">
+</div>
+<div class="summitbar">
+    <h2>Ready To Build Your Community?</h2>
+    <form action="post">
+        <button type="submit">Get Started For Free</button>
+    </form>
+</div>
+
+</body>
+</html>
